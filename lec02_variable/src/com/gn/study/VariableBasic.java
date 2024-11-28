@@ -16,6 +16,16 @@ public class VariableBasic {
 		System.out.println("1 : "+score);
 		score = 95;
 		System.out.println("2 : "+score);
+		// 변수 명명 규칙
+		// 예약어를 변수 이름으로 사용할 수 없음
+		// 변수 이름에는 영문자, 숫자, 특수문자, 한글 사용 가능
+		// 특수문자는 _ 언더바와 $ 달러만 사용 가능
+		// 변수의 첫글자는 소문자
+		// 여러 단어 이름은 단어의 첫 알파벳을 대문자 변수는 대소문자 구분
+		// 변수 이름에는 공백 포함 불가능
+		
+		
+		
 		//5. 문자열 변수의 초기화
 		String str1 = new String("감사");
 		String str2 = "합니다.";
@@ -78,6 +88,15 @@ public class VariableBasic {
 		final double PI = 3.14;
 		final int MAX_SIZE = 100;
 		
+		int a1 = 10;
+		double a2 = 5.7;
+		int a3 = a1 +(int)a2;
+		double a4 = a1 + a2;
+		
+				
+		System.out.println(a3);
+		System.out.println(a4);
+	
 		
 	}
 

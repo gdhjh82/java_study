@@ -2,13 +2,16 @@ package com.gn.practive;
 
 public class Practice01 {
 	public static void main(String[] args) {
-		int number;
-		int age;
-		age = 100;
-	    int age2 = 10;
-		System.out.println(age+age2);
-		System.out.println(age2 * (age+age2));
-		System.out.println((age2 * (age+age2)) / 10);
+		System.out.println(100 + 10);
+		System.out.println(10 * (100 + 10));
+		System.out.println((10 * (100 + 10)) / 10);
+		
+		int a = 100;
+		int b = 10;
+		
+		System.out.println(a+b);
+		System.out.println(b*(a+b));
+		System.out.println((b*(a+b)) / b);
 		
 		// 유지보수 효율적
 		int percent = (100-10);
