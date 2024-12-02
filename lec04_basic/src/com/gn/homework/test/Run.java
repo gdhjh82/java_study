@@ -23,5 +23,7 @@ public class Run {
 		//practice.practice01();
 		// 2번 기능 호출
 		//practice.practice02();
+		
+		
 	}
 }
