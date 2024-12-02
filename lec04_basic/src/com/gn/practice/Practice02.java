@@ -25,7 +25,5 @@ public class Practice02 {
 			//System.out.println("나머지 f");
 			grade = "f";
 		}
-	      
 	}
-
 }
