@@ -24,6 +24,7 @@ public class Homrwork01 {
 		// 나이스
 		System.out.println("문자열을 입력하세요 :");
 		int c = sc.nextInt();
+		
 		String word = "apple";
 		char o = word.charAt(0);
 		char p = word.charAt(1);
