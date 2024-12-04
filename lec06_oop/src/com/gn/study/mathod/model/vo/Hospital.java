@@ -21,4 +21,9 @@ public class Hospital {
 	private void personalRecord() {
 		System.out.println("개인 의료 기록을 열람합니다.");
 	}
+	
+	// 5. 병원 정보 출력
+	public static void hospitalInfo() {
+		System.out.println("저희 병원은 00시 00구에 있어요.");
+	}
 }

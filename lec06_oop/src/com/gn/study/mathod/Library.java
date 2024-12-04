@@ -11,7 +11,7 @@ public class Library {
 	}
 
 // 2. 빌린 책 반납하기. 
- public void returnBoosks(int lateFee, String...books) {
+ public void returnBooks(int lateFee, String...books) {
 	 System.out.println("총 연체료 : "+lateFee);
 	 for(String book : books) {
 		 System.out.println("- "+books);

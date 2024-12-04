@@ -42,6 +42,12 @@ public class Run {
 		/*hospital.doctorCall();
 		hospital.staffAnnouncement();
 		hospital.personalRecord();*/
+		
+		// 인스턴스를 생성하지 않고 메소드 호출 가능
+		Hospital.hospitalInfo();
+		Math.random();
+		
+		
 	}
 
 }
