@@ -1,8 +1,16 @@
 package com.gn.strudy.cotrller;
 
+import com.gn.strudy.mpdel.vo.Alarm;
+import com.gn.strudy.mpdel.vo.Animal;
 import com.gn.strudy.mpdel.vo.Beverage;
+import com.gn.strudy.mpdel.vo.Cat;
 import com.gn.strudy.mpdel.vo.Coffee;
+import com.gn.strudy.mpdel.vo.Dog;
+import com.gn.strudy.mpdel.vo.Earth;
+import com.gn.strudy.mpdel.vo.FireAlarm;
+import com.gn.strudy.mpdel.vo.Mars;
 import com.gn.strudy.mpdel.vo.OrangeJuice;
+import com.gn.strudy.mpdel.vo.Planet;
 
 public class Run {
 	public static void main(String[] args) {
@@ -62,7 +70,32 @@ public class Run {
 		
 		// 3. 클래스 타운캐스팅.
 		
+		// 4. 정적 바인딩 -> 오버로딩
+		System.out.println("==================");
+		Planet myPlanet = new Planet();
+		myPlanet.description();
+		myPlanet.description(46);
 		
+		// 5. 동적 바인딩 ->
+		Planet p1 = new Earth();
+		Planet p2 = new Mars();
+		p1.material();
+		p2.material();
+		
+		
+		//6. 추상 메소드
+		//Aimal a = new Animal();
+		
+		Animal dog = new Dog();
+		dog.sound();
+		Animal cat = new Cat();
+		cat.sound();
+		cat.breath();
+		
+		
+		// 7. 인터페이스
+		Alarm a = new FireAlarm();
+		System.out.println(a.MAX_VOLUME);
+		a.soundAlarm();
 	}
-
 }
