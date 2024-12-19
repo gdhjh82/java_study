@@ -21,7 +21,7 @@ public class BufOutRun1 {
 		BufferedOutputStream bos = null;
 		try {
 			fos = new FileOutputStream(file);
-			bos = new BufferedOutputStream(bos);
+			bos = new BufferedOutputStream(fos);
 			
 			String str = "how are you? \n"
 					+ "I'm fine thank you\n";
