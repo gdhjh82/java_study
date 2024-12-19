@@ -8,6 +8,7 @@ package com.gn.study.basic.model.vo;
 
 // class - 예약어, 무조건 써야한다.
 // Car 클래스명.
+
 public class Car {
 
 }
